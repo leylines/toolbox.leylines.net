@@ -1,0 +1,2 @@
+/*! For license information please see chunk-D26HTPVM.js.LICENSE.txt */
+import{a as w}from"./chunk-7TT2TZHW.js";var C={computePositions:function(t,o,a,r,n){let s,e=.5*t,i=-e,c=r+r,u=new Float64Array(3*(n?2*c:c)),T=0,f=0,h=n?3*c:0,l=n?3*(c+r):3*r;for(s=0;s<r;s++){let t=s/r*w.TWO_PI,c=Math.cos(t),m=Math.sin(t),p=c*a,C=m*a,M=c*o,P=m*o;u[f+h]=p,u[f+h+1]=C,u[f+h+2]=i,u[f+l]=M,u[f+l+1]=P,u[f+l+2]=e,f+=3,n&&(u[T++]=p,u[T++]=C,u[T++]=i,u[T++]=M,u[T++]=P,u[T++]=e)}return u}},Y=C;export{Y as a};
